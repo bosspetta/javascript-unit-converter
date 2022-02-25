@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>JavaScript practices</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <main id="main-content" class="main-content">
+            <section id="unit-calculator" class="unit-calculator">
+                <header class="unit-calculator--header">
+                    <h1 class="unit-calculator--title">Metric/Imperial unit conversion</h1>
+                    <div class="unit-calculator--input-wrapper">
+                        <input type="number" id="unit-calculator--input" class="unit-calculator--input" value="20" min="1" max="1000" aria-label="Input for the number to convert" />
+                    </div>
+                </header>
+                <div class="unit-calculator--results">
+                    <div class="unit-calculator--results--conversion-item">
+                        <h4 class="unit-calculator--results-title">Length (Meter/Feet)</h4>
+                        <p class="unit-calculator--results-conversion">
+                            <span id="meters" class="unit-calculator--results--unit"></span> meters = 
+                            <span id="meters-to-feet" class="unit-calculator--results--result"></span> feet | 
+                            <span id="feet" class="unit-calculator--results--unit"></span> feet = 
+                            <span id="feet-to-meters" class="unit-calculator--results--result"></span> meters
+                        </p>
+                    </div>
+                    <div class="unit-calculator--results--conversion-item">
+                        <h4 class="unit-calculator--results-title">Volume (Liters/Gallons)</h4>
+                        <p class="unit-calculator--results-conversion">
+                            <span id="liters" class="unit-calculator--results--unit"></span> liters = 
+                            <span id="liters-to-gallons" class="unit-calculator--results--result"></span> gallons | 
+                            <span id="gallons" class="unit-calculator--results--unit"></span> gallons = 
+                            <span id="gallons-to-liters" class="unit-calculator--results--result"></span> liters
+                        </p>
+                    </div>
+                    <div class="unit-calculator--results--conversion-item">
+                        <h4 class="unit-calculator--results-title">Mass (Kilograms/Pounds)</h4>
+                        <p class="unit-calculator--results-conversion">
+                            <span id="kilos" class="unit-calculator--results--unit"></span> kilos = 
+                            <span id="kilos-to-pounds" class="unit-calculator--results--result"></span> pounds | 
+                            <span id="pounds" class="unit-calculator--results--unit"></span> pounds = 
+                            <span id="pounds-to-kilos" class="unit-calculator--results--result"></span> kilos
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="index.pack.js"></script>
+    </body>
+</html>
